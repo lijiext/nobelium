@@ -1,10 +1,10 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
-  lang: 'en-US',
+  title: 'BlueSky',
+  author: 'Lindi K',
+  email: 'rubycs@139.com',
+  link: 'https://lindi.vercel.app',
+  description: 'A simple website.',
+  lang: 'zh-CN',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -15,9 +15,9 @@ const BLOG = {
   sortByDate: false,
   showAbout: true, // WIP
   showArchive: true, // WIP
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://twitter.com/lijiext',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['BlueSky', 'bluesky blog', 'lindi'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
