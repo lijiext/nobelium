@@ -12,9 +12,9 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // if leave this empty, current year will be used.
   postsPerPage: 7,
-  sortByDate: false,
+  sortByDate: true,
   showAbout: true, // WIP
-  showArchive: true, // WIP
+  showArchive: false, // WIP
   socialLink: 'https://twitter.com/lijiext',
   seo: {
     keywords: ['BlueSky', 'bluesky blog', 'lindi'],
